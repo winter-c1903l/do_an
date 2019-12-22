@@ -5,7 +5,10 @@
  </head>
  <?php include "./asset/css/navstyle.php";?>
  <?php include "./asset/css/carosel.php";?>
- <body>    
+ <?php include "./asset/css/footerstyle.php";?>
+ <body>
+    <?php include "./setting/constant.php";?>   
+    <?php $Detect = HOME ;?>    
     <?php include "./helper/header_common.php";?>
     <div id="my-carousel" class="carousel slide" data-ride="carousel">
 
@@ -50,6 +53,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    
     <?php include "./helper/footer_common.php";?>
     <?php include "./helper/script.php";?>
 </body>

@@ -13,7 +13,7 @@
 }
  </style>
  <?php include "../asset/css/navstyle.php";?>
- 
+ <?php include "../asset/css/footerstyle.php";?>
  <body>
     <?php include "../setting/constant.php";?>   
     <?php $Detect = EXP ;?>
