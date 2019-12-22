@@ -22,6 +22,9 @@
             color: white;
             margin-left: 80px;
     }
+    .navbar .navbar-brand:hover{
+            color: white;
+    }
     .navbar .navbar-nav li a{
             color: white !important;
         

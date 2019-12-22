@@ -4,10 +4,10 @@
 	<?php include "../helper/bootstrap_common.php";?>
  </head>
  <style>
-    .background{
+    /* .background{
         background-color: lightgray;
 
-    }
+    } */
     .title-block{
         text-align: center;
         color: darkgreen;
@@ -53,9 +53,18 @@
    .card-text{
        height: 100px;
    }
+   body > div.container > footer > div > div > div.col-md-4.col-lg-2.mx-auto.my-md-4.my-0.mt-4.mb-1 > ul > li > p > a{
+        color: white;
+   }
+   body > div.container > div > div.foodlist > div > div > div > div{
+       color: black;
+   }
+   body > div.container > div > div.sm-container > div > div > div > div > div > div{
+       color: black;
+   }
  </style>
  <?php include "../asset/css/navstyle.php";?>
- 
+ <?php include "../asset/css/footerstyle.php";?>
  <body class="background">
     <?php include "../setting/constant.php";?>   
     <?php $Detect = LEI ;?>

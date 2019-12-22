@@ -51,7 +51,9 @@
 	.contact-form button:focus{
 		box-shadow:none;
   }
-
+  body > div.container.contact > div:nth-child(2) > footer > div > div > div.col-md-4.col-lg-2.mx-auto.my-md-4.my-0.mt-4.mb-1 > ul > li > p > a{
+    color: white;
+  }
 </style>
 <title>Title</title>
 </head>
