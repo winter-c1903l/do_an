@@ -12,8 +12,8 @@
     <title>Number Maker</title>
     <style>
       .navbar{
-    font-size: .6em !important;
-    background: darkgreen;
+    font-size: 15px !important;
+    background-color: green;
     }
     .nav-link{
         margin-left: 10px;
@@ -23,12 +23,19 @@
             margin-left: 80px;
     }
     .navbar .navbar-brand:hover{
-            color: white;
+            background-color: white;
     }
-    .navbar .navbar-nav li a{
-            color: white !important;
+    .navbar .navbar-nav li a:hover{
+            background-color: white;
         
     }
+    #navbarSupportedContent > ul > li.nav-item.dropdown.show > div{
+      background-color:greenyellow;
+    }
+    /* #navbarSupportedContent > ul > li.nav-item.dropdown.show > div{
+      background-color: darkslategray;
+    } */
+    
     </style>
   </head>
   <body>
